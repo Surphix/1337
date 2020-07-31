@@ -586,11 +586,15 @@ lse_test() {
     lse_passed_tests="$lse_passed_tests $id"
     #cecho "${r} yes!${reset}\n"
     if [ $lse_level -ge $level ]; then
-        for bin in ${gtfo_bins}; do 
-            if [[ $output == *$bin ]]; then
-                cecho "${r} https://gtfobins.github.io/gtfobins$bin"
-            fi
+        for o in $output; do
+            for bin in ${gtfo_bins}; do 
+                if [[ $o == *$bin ]]; then
+                    cecho "${r} $o -> https://gtfobins.github.io/gtfobins$bin"
+                fi
+            done
         done
+
+
     fi
     return 0
   fi
