@@ -6,7 +6,7 @@
 
 <h2>Future Plans</h2>
 <ul>
-  <li>Capable of running Basic SUID privelege escalations</li>
+  <li>Running Basic SUID privelege escalations</li>
   <li>Offline privelege escalation recommendations i.e. commands to run</li>
   <li><i>More to come...</i><li>
 </ul>
@@ -16,4 +16,5 @@
 <a href="https://github.com/diego-treitos/linux-smart-enumeration">linux-smart-enumeration</a>
 </br>
 <a href="https://github.com/rebootuser/LinEnum">LinEnum</a>
+</br>
 <a href="http://gtfobins.github.io">GTFO Bins</a>
